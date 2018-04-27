@@ -1,0 +1,119 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Contoso Bank Support Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="narrow-jumbotron.css" rel="stylesheet">
+      
+    <!-- chat frame css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+      
+      
+    <!-- JAVASCRIPT-->
+    <script type="text/javascript">
+        function openChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "";
+            var img = document.getElementById("chat-button");
+            img.className = "hide";
+        }
+        function closeChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "hide";
+            var img = document.getElementById("chat-button");
+            img.className = "";
+        }
+    </script>
+      
+      
+      
+      
+      
+      
+  </head>
+
+  <body>
+
+    <div class="container">
+      <header class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accounts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Sign in/Sign up</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Contoso Bank</h3>
+      </header>
+
+      <main role="main">
+
+        <div class="jumbotron">
+          <h1 class="display-3">Contoso Bank</h1>
+          <p class="lead">Contoso strives to consistently provide its customers with outstanding service and innovative financial solutions. We're dedicated to providing simple financial products that allow customers to bank with us how and when they want.</p>
+          <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+        </div>
+        <h3>FAQs</h3>
+        <div class="row marketing">
+          <div class="col-lg-6">
+            
+            <h4>How can I sign up for Contoso Bank?</h4>
+            <p>Moving your banking to Contoso is easy and you can start online. There are so many great reasons to join! Join now by signing up online or booking an appoint in store by dialing 02X-CNTSBNK.</p>
+
+            <h4>How to manage my accounts?</h4>
+            <p>Sign in with your Contoso Bank Login (if you don't have one sign up now), and go to "Account" page where you can view all your accounts ranging from savings to graduate cheques.</p>
+          </div>
+
+          <div class="col-lg-6">
+            <h4>What do I need to know about using my Contoso card overseas?</h4>
+            <p>When travelling overseas with an Contoso card there are several things to keep in mind:</p>
+                    <ul>
+                        <li> Check your Expiry Date</li>
+                        <li> Notify Contoso Bank</li>
+                        <li> Overseas Fees</li>
+                    </ul>
+
+          </div>
+        </div>
+
+      </main>
+
+      <footer class="footer">
+        <p>&copy; Contoso Bank Limited</p>
+      </footer>
+
+        
+        
+    </div> <!-- /container -->
+      <div id="chat">
+        <img id="chat-button" src="bloo%20speech.png" onclick="openChat()" />
+        <div id="chat-frame" class="hide">
+            <iframe src='https://webchat.botframework.com/embed/Bank_Chat_Bot?s=yYbFNGKG8s0.cwA.Wfc.3AAKZyBsvVwpnImRqNjpNQ6XhspFJTXllinwkSbRSCA'></iframe>
+			<img src="closebutton.png" onclick="closeChat()" />
+            
+        </div>
+    </div>
+      
+  </body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "msa-contoso-bank",
+  "version": "1.0.0",
+  "description": "Submission for my MSA project.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://even069:Tennis123@github.com/even069/MSA-Contoso-Bank.git"
+  },
+  "keywords": [
+    "MSA",
+    "bot"
+  ],
+  "author": "Renzo Ventura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/even069/MSA-Contoso-Bank/issues"
+  },
+  "homepage": "https://github.com/even069/MSA-Contoso-Bank#readme",
+  "dependencies": {
+    "botbuilder": "^3.12.0",
+    "restify": "^6.3.4"
+  }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contoso Bank Home Page</title>
+
+    <link href="MSA-Contoso-Bank.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function openChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "";
+            var img = document.getElementById("chat-button");
+            img.className = "hide";
+        }
+        function closeChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "hide";
+            var img = document.getElementById("chat-button");
+            img.className = "";
+        }
+    </script>
+</head>
+    
+<body>
+  
+    
+    
+    <div class="container">
+        <img src="Azure.png" id = "smallimg"/>
+        <h1 id="title"> Contoso Bank </h1>
+        <h2> The worlds most trusted bank</h2>
+    </div>
+    
+    
+    
+
+    
+    <div >
+        <h3> Welcome to Contoso Bank Online Support Page</h3>
+        <ul>
+            <li><a>Home Page</a></li>
+            <li><a>Accounts</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Support Page</a></li>
+            <li><a>Sign in/Sign up</a></li>
+        </ul> 
+    </div>
+    
+    <div id = "FAQs" >
+		<ul>
+			<h2>FAQs</h2>
+			<li id = "FAQs" >
+				<a id = "Faqsquestions" >How can I sign up for Contoso Bank?</a>
+				<div >
+					<p>Moving your banking to Contoso is easy and you can start online. There are so many great reasons to join! Join now by signing up online or booking an appoint in store by dialing 02X-CNTSBNK.</p>
+				</div> 
+			</li>
+            
+            <li id = "FAQs" >
+				<a id = "Faqsquestions" >How to manage my accounts?</a>
+				<div>
+                    
+					<p>Sign in with your Contoso Bank Login (if you don't have one sign up now), and go to "Account" page where you can view all your accounts ranging from savings to graduate cheques.</p>
+				</div> 
+			</li>
+            
+            <li id = "FAQs" >
+				<a id = "Faqsquestions" >What do I need to know about using my Contoso card overseas?</a>
+				<div>
+					<p>When travelling overseas with an Contoso card there are several things to keep in mind:</p>
+                    <ul>
+                        <li> Check your Expiry Date</li>
+                        <li> Notify Contoso Bank</li>
+                        <li> Overseas Fees</li>
+                    </ul>
+				</div> 
+			</li>
+            
+            
+        </ul>
+    </div>
+    
+    
+    
+    <div id="chat">
+        <img id="chat-button" src="bloo%20speech.png" onclick="openChat()" />
+        <div id="chat-frame" class="hide">
+            <iframe src='https://webchat.botframework.com/embed/Bank_Chat_Bot?s=yYbFNGKG8s0.cwA.Wfc.3AAKZyBsvVwpnImRqNjpNQ6XhspFJTXllinwkSbRSCA'></iframe>
+			<img src="closebutton.png" onclick="closeChat()" />
+            
+        </div>
+    </div>
+    
+</body>
